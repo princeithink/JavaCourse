@@ -41,6 +41,9 @@ public class BankAccount {
         } else {
             System.out.println("Invalid amount. Please withdraw a positive value.");
         }
+        if (amount > 20000){
+            System.out.println("Amount too high for this account");
+        }
         return 0;
     }
 }
