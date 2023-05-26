@@ -5,8 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Account {
-//    this is the main frame when you run the program, it asks for the user password
+public class Account
+ //    this is the main frame when you run the program, it asks for the user password
     JFrame mainFrame = new JFrame("Bank Application");
 
     JTextField passwordField = new JTextField("Enter your password:");
